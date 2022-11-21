@@ -1,0 +1,191 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Jicama\ Days.otf);
+  }
+@font-face {
+    font-family: mySecondFont;
+    src: url(PompanoDEMO.otf);
+  }
+body{
+  padding: 0px;
+}
+.background1 {
+    /**background-image: linear-gradient(
+        45deg, rgb(239, 220, 176) 0%, rgba(255,231,135,1) 47%);
+        transition: 2s; */
+        background-color: bisque;
+        background: 1;
+        transition: background-color 1s;
+}
+.background2 {
+    /**background-image: linear-gradient(
+        45deg, rgb(176, 221, 239) 0%, rgb(135, 249, 255) 47%);
+        transition: 2s; */
+        background-color: rgb(165,216,253,255);
+        transition: background-color .7s;
+}
+.background3{
+  background-color: black;
+  transition: background-color .5s;
+}
+.size1{
+  font-size: 60px;
+  padding-left: 20%;
+  padding-right: 20%; 
+  font-size: 60px;
+  left: 15%;
+  right:50%;
+  font-weight: 200px;
+  color: rgb(19, 79, 79);
+  border-color: rgb(0, 0, 0);
+  border-width: 20px;
+ /** right: 37%; */
+  position:sticky;
+  top: 10px; 
+  background-color: rgb(255, 208, 136);
+  box-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  transition: 1s;
+
+}
+.size2{
+  font-size: 60px;
+  padding-left: 20%;
+  padding-right: 20%; 
+  font-size: 60px;
+  left: 15%;
+  right:50%;
+  font-weight: 200px;
+  color: rgb(19, 79, 79);
+  border-color: rgb(0, 0, 0);
+  border-width: 20px;
+ /** right: 37%; */
+  position:sticky;
+  top: -110px; 
+  background-color: rgba(144, 136, 255, 0);
+  box-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  transition: 3s;
+
+}
+.size3{
+  font-size: 30;
+  position: fixed;
+  left: 5%;
+  top: -20px;
+  transition: 2s;
+}
+.size4{
+  font-size: 30;
+  position: fixed;
+  left: 5%;
+  top: 30px;
+  transition: 2s;
+  border: 10px black;
+}
+bean2{
+  font-family: myFirstFont;
+  text-align: center;
+}
+
+
+.instruction {
+  font-family: mySecondFont;
+  text-align: center;
+  font-size: 90%;
+}
+.headyyy{
+  font-family: myFirstFont;
+  font-weight: -100px;
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: -20px;
+}
+
+bean {
+    font-family: myFirstFont;
+    text-align: center;
+
+}
+
+bean:hover{
+    text-shadow: 0px 4px 4px rgb(185, 235, 76);
+}
+.gallery {
+    font-family: mySecondFont;
+    background-color: rgb(255, 208, 136);
+    margin-right: 4.8%;
+    margin-left: 4.8%;
+    margin-top: 4.8%;
+    margin-bottom: 4.8%;
+    border: 5px solid rgb(77, 75, 57);
+    float: left;
+    border-radius: 80%;
+    width: 350px;
+    height: 150px;
+    font-size: 30px;
+    transition: opacity 1s;
+  }
+  .opacity {
+    margin-bottom: 4.8%;
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  .opacity1 {
+    margin-bottom: 4.8%;
+    opacity: 1;
+    transition: opacity .7s;
+  }
+
+  .gallery2 {
+    font-family: mySecondFont;
+    background-color: rgb(255, 208, 136);
+    margin: 4.8%;
+    border: 5px solid rgb(77, 75, 57);
+    float: left;
+    border-radius: 3%;
+    width: 350px;
+    height: 150px;
+    font-size: 30px;
+  }
+  .gallery:hover {
+    background-color: bisque;
+    box-shadow: 4px 4px 4px rgb(255,231,135,1), 4.5px 4.5px 4.5px black;
+
+  }
+  .gallery2:hover {
+    background-color: bisque;
+    box-shadow: 4px 4px 4px rgb(255,231,135,1), 4.5px 4.5px 4.5px black;
+
+  }
+
+.bluepoof{
+  padding-top: 900px;
+}
+.bluepoof2{
+  padding-top: 0px;
+}
+
+p {
+    font-size: xx-large;
+}
+aboutme {
+  border: 1px;
+}
+
+.info {
+  font-family: mySecondFont;
+  margin-bottom: -120px;
+  margin-left: 30%;
+  width: 50%;
+  height: 170px;
+  font-size: 30px;
+  line-height: 130%;
+}
+img {
+  /*overflow-x: hidden; */
+  min-width: 100%;
+  max-width: 100%;
+  float:right;
+}
+.stretch{
+  max-height: 350px;
+}
