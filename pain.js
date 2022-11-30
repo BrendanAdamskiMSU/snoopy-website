@@ -24,10 +24,14 @@ function changeColor(){
         bean2.classList.remove("size4")
 
     } if (scrollValue > 800){
+        bean.classList.add("size2")
+        bean.classList.remove("size1")
         bean2.classList.add("size4")
         bean2.classList.remove("size3")
     }
     if (scrollValue >= 2100){
+        bean.classList.add("size2")
+        bean.classList.remove("size1")
         background.classList.add("background3")
         background.classList.remove('background2')
 }
