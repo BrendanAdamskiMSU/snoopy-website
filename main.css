@@ -29,48 +29,38 @@ body{
   transition: background-color .5s;
 }
 .size1{
-  font-size: 60px;
-  padding-left: 20%;
-  padding-right: 20%; 
-  font-size: 60px;
-  left: 15%;
-  right:50%;
-  font-weight: 200px;
+  padding-left: 20vw;
+  padding-right: 20vw; 
+  font-size: 5vw;
+  left: 12vw;
   color: rgb(19, 79, 79);
   border-color: rgb(0, 0, 0);
-  border-width: 20px;
- /** right: 37%; */
   position:sticky;
-  top: 10px; 
+  top: 1vw; 
   background-color: rgb(255, 208, 136);
-  box-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
-  transition: 1s;
+  box-shadow: -.3vw 0 black, 0 .3vw black, .3vw 0 black, 0 -.3vw black;
+  transition: top 1s ;
 
 }
 .size2{
-  font-size: 60px;
-  padding-left: 20%;
-  padding-right: 20%; 
-  font-size: 60px;
-  left: 15%;
-  right:50%;
-  font-weight: 200px;
+  padding-left: 20vw;
+  padding-right: 20vw; 
+  font-size: 5vw;
+  left: 12vw;
   color: rgb(19, 79, 79);
   border-color: rgb(0, 0, 0);
-  border-width: 20px;
- /** right: 37%; */
   position:sticky;
-  top: -110px; 
-  background-color: rgba(144, 136, 255, 0);
-  box-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
-  transition: 3s;
+  top: -20vw; 
+  background-color: rgb(255, 208, 136);
+  box-shadow: -.3vw 0 black, 0 .3vw black, .3vw 0 black, 0 -.3vw black;
+  transition: top 3s;
 
 }
 .size3{
   font-size: 30;
   position: fixed;
   left: 5%;
-  top: -20px;
+  top: -200px;
   transition: 2s;
 }
 .size4{
@@ -90,7 +80,7 @@ bean2{
 .instruction {
   font-family: mySecondFont;
   text-align: center;
-  font-size: 90%;
+  font-size: 1.2vw;
 }
 .headyyy{
   font-family: myFirstFont;
@@ -99,7 +89,14 @@ bean2{
   font-size: 300%;
   margin-bottom: -20px;
 }
-
+.headyyy2{
+  font-family: myFirstFont;
+  font-weight: -100px;
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
 bean {
     font-family: myFirstFont;
     text-align: center;
@@ -112,16 +109,13 @@ bean:hover{
 .gallery {
     font-family: mySecondFont;
     background-color: rgb(255, 208, 136);
-    margin-right: 4.8%;
-    margin-left: 4.8%;
-    margin-top: 4.8%;
-    margin-bottom: 4.8%;
-    border: 5px solid rgb(77, 75, 57);
+    margin: 4.3vw;
+    border: .3vw solid rgb(77, 75, 57);
     float: left;
-    border-radius: 80%;
-    width: 350px;
-    height: 150px;
-    font-size: 30px;
+    border-radius: 1000vw;
+    width: 23vw;
+    height: 10vw;
+    font-size: 2vw;
     transition: opacity 1s;
   }
   .opacity {
@@ -130,7 +124,7 @@ bean:hover{
     transition: opacity .5s;
   }
   .opacity1 {
-    margin-bottom: 4.8%;
+    margin-bottom: 4.3vw;
     opacity: 1;
     transition: opacity .7s;
   }
@@ -138,13 +132,13 @@ bean:hover{
   .gallery2 {
     font-family: mySecondFont;
     background-color: rgb(255, 208, 136);
-    margin: 4.8%;
-    border: 5px solid rgb(77, 75, 57);
+    margin: 4.3vw;
+    border: .3vw solid rgb(77, 75, 57);
     float: left;
-    border-radius: 3%;
-    width: 350px;
-    height: 150px;
-    font-size: 30px;
+    border-radius: 1vw;
+    width: 23vw;
+    height: 10vw;
+    font-size: 2vw;
   }
   .gallery:hover {
     background-color: bisque;
@@ -177,9 +171,20 @@ aboutme {
   margin-left: 30%;
   width: 50%;
   height: 170px;
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 130%;
 }
+.info2 {
+  font-family: mySecondFont;
+  margin-bottom: -120px;
+  margin-left: 25%;
+  width: 60%;
+  height: 170px;
+  font-size: 1.9vw;
+  line-height: 130%;
+  color: aliceblue;
+}
+
 img {
   /*overflow-x: hidden; */
   min-width: 100%;
