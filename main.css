@@ -57,23 +57,41 @@ body{
 
 }
 .size3{
-  font-size: 30;
-  position: fixed;
-  left: 5%;
   top: -200px;
-  transition: 2s;
-}
-.size4{
-  font-size: 30;
-  position: fixed;
   left: 5%;
-  top: 30px;
-  transition: 2s;
-  border: 10px black;
 }
+
+.size4{
+  top: 30px;
+  left: 5%;
+}
+.size69 {
+  top: 30px;
+  right: 3%;
+}
+.size70 {
+  top: 30px;
+  right: 9.5%;
+}
+.size71 {
+  top: 30px;
+  right: 15%;
+}
+.sizemid{
+  top: -200px;
+  right: 9.5%;
+}
+.colorWhite{
+  color: wheat;
+}
+
 bean2{
   font-family: myFirstFont;
   text-align: center;
+  font-size: 30;
+  position: fixed;
+  transition: 2s;
+
 }
 
 
